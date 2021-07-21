@@ -1,3 +1,39 @@
 // Place all the styles related to the go controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.search-box {
+  padding: 15px;
+  background-color: #ccc;
+  font-size: 0;
+}
+
+.serch-box > * {
+  font-size: 1.2rem;
+}
+
+.search-box .search-input {
+  width: 205px;
+  height: 26px;
+  padding: 0 10px;
+  border:  none;
+}
+
+.search-box .search-button {
+  width: 40px;
+  height: 26px;
+  border: none;
+  background-color: #d03c56;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-button {
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+.search-box {
+  margin-top: 12px;
+  
+}
